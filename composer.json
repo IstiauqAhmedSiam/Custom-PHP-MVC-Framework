@@ -1,0 +1,12 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "guzzlehttp/guzzle": "^7.10",
+        "pecee/simple-router": "^5.4"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

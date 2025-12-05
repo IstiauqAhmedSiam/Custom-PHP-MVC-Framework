@@ -1,0 +1,4 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [QSA,L]
